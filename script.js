@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const menuBtn = document.createElement("button");
     menuBtn.className = "menu-btn";
-    menuBtn.textContent = "...";
+    menuBtn.textContent = ":";
 
     const menuOptions = document.createElement("div");
     menuOptions.className = "menu-options";
