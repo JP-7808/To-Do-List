@@ -29,12 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function addTask() {
-    const taskText = taskInput.value.trim(); // Get the input value
+    const taskText = taskInput.value.trim(); 
     if (taskText) {
-      const taskObj = { text: taskText, completed: false }; // Create a new task object
-      addTaskToList(taskObj); // Add to UI
-      saveTaskToLocalStorage(taskObj); // Save to localStorage
-      taskInput.value = ""; // Clear the input field
+      const taskObj = { text: taskText, completed: false }; 
+      addTaskToList(taskObj); 
+      saveTaskToLocalStorage(taskObj); 
+      taskInput.value = ""; 
     }
   }
 
